@@ -50,8 +50,8 @@ app.post("/bot", async (req, res) => {
 
 })
 
-const port = 3000
-app.listen(port, () => console.log("server started"))
+const PORT = 3000
+app.listen(PORT, () => console.log("server started"))
 
 
 
